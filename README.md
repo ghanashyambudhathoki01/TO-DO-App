@@ -21,7 +21,8 @@
   <li>Footer on both pages: "Developed by Ghanashyam Budhathoki"</li>
   <li>Simple, clean, and user-friendly UI</li>
 </ul>
-
+<h1>Screenshot of To Do App</h1>
+![image alt](https://github.com/ghanashyambudhathoki01/TO-DO-App/raw/main/new.jpg)
 
 <h2>Project Structure</h2>
 <pre>
