@@ -21,7 +21,7 @@
   <li>Footer on both pages: "Developed by Ghanashyam Budhathoki"</li>
   <li>Simple, clean, and user-friendly UI</li>
 </ul>
-<h1>Screenshot of To Do App</h1>
+<h2>Screenshot of To Do App</h2>
 <img src="https://raw.githubusercontent.com/ghanashyambudhathoki01/TO-DO-App/main/new.jpg" alt="TO-DO App Screenshot" width="400">
 
 
@@ -80,7 +80,6 @@ Helping others understand tech through creativity and simplicity.</strong>
 <h2>License</h2>
 <p>Under Creative Common Zone</p>
 
-<b>Developed by Ghanashyam Budhathoki</b>
 
 </body>
 </html>
