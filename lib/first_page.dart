@@ -72,8 +72,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     title: Text(
                       task["task"] ?? "",
                       style: TextStyle(
-                        color: task["status"] == "completed"
-                            ? Colors.green
+                        color: task["status"] == "completed"? 
+                        Colors.green
                             : Colors.black,
                         fontWeight: FontWeight.w700,
                         decoration: task["status"] == "completed"
