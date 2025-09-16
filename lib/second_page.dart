@@ -8,8 +8,10 @@ class AddTask extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Add tasks here", style: TextStyle(color: Colors.white)),
-        iconTheme: IconThemeData(color: Colors.white),
+        title: Text("Add tasks here", 
+                    style: TextStyle(color: Colors.white)),
+        iconTheme: IconThemeData
+        (color: Colors.white),
         backgroundColor: Colors.lightGreen,
       ),
       body: SafeArea(
@@ -21,7 +23,8 @@ class AddTask extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("Task:", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500)),
+                    Text("Task:", style: TextStyle
+                         (fontSize: 16, fontWeight: FontWeight.w500)),
                     TextField(
                       controller: taskController,
                       decoration: InputDecoration(
@@ -30,7 +33,9 @@ class AddTask extends StatelessWidget {
                       ),
                     ),
                     SizedBox(height: 14),
-                    Text("Description:", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500)),
+                    Text("Description:", style: TextStyle
+                         (fontSize: 16, 
+                          fontWeight: FontWeight.w500)),
                     TextField(
                       controller: descriptionController,
                       decoration: InputDecoration(
@@ -42,7 +47,8 @@ class AddTask extends StatelessWidget {
                     Container(
                       width: double.infinity,
                       child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(backgroundColor: Colors.black),
+                        style: ElevatedButton.styleFrom
+                        (backgroundColor: Colors.black),
                         onPressed: () {
                           if (taskController.text.isNotEmpty &&
                               descriptionController.text.isNotEmpty) {
@@ -52,7 +58,8 @@ class AddTask extends StatelessWidget {
                             });
                           }
                         },
-                        child: Text("Add Task", style: TextStyle(color: Colors.white)),
+                        child: Text("Add Task", 
+                                    style: TextStyle(color: Colors.white)),
                       ),
                     ),
                   ],
