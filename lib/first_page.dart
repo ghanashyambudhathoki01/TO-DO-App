@@ -37,9 +37,11 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text("Todo App", style: TextStyle(color: Colors.white)),
+            Text("Todo App", style: TextStyle
+                 (color: Colors.white)),
             InkWell(
-              child: Icon(Icons.add, color: Colors.white),
+              child: Icon(Icons.add, 
+                          color: Colors.white),
               onTap: () {
                 Navigator.push(
                   context,
@@ -84,7 +86,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       children: [
                         Text(
                           task["description"] ?? "",
-                          style: TextStyle(color: Colors.grey),
+                          style: TextStyle
+                          (color: Colors.grey),
                         ),
                         SizedBox(height: 4),
                         Text(
@@ -116,7 +119,8 @@ class _HomeScreenState extends State<HomeScreen> {
                           value: "completed",
                           child: Row(
                             children: [
-                              Icon(Icons.check, color: Colors.green),
+                              Icon(Icons.check, 
+                                   color: Colors.green),
                               SizedBox(width: 8),
                               Text("Mark as Completed"),
                             ],
@@ -126,7 +130,8 @@ class _HomeScreenState extends State<HomeScreen> {
                           value: "pending",
                           child: Row(
                             children: [
-                              Icon(Icons.access_time, color: Colors.orange),
+                              Icon(Icons.access_time, 
+                                   color: Colors.orange),
                               SizedBox(width: 8),
                               Text("Mark as Pending"),
                             ],
@@ -136,7 +141,8 @@ class _HomeScreenState extends State<HomeScreen> {
                           value: "delete",
                           child: Row(
                             children: [
-                              Icon(Icons.delete, color: Colors.red),
+                              Icon(Icons.delete, 
+                                   color: Colors.red),
                               SizedBox(width: 8),
                               Text("Delete"),
                             ],
@@ -147,8 +153,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   );
                 },
                 itemCount: arrNames.length,
-                separatorBuilder: (context, index) {
-                  return Divider(height: 10, thickness: 1);
+                separatorBuilder: (
+                  context, index) {
+                  return Divider
+                    (height: 10, thickness: 1);
                 },
               ),
             ),
