@@ -37,7 +37,7 @@ lib/
 <h2>Installation & Setup</h2>
 <ol>
   <li>Clone the repository:
-    <pre>git clone https://github.com/your-username/flutter-todo-app.git</pre>
+    <pre>git clone https://github.com/ghanashyambudhathoki01/flutter-todo-app.git</pre>
   </li>
   <li>Navigate into the project folder:
     <pre>cd flutter-todo-app</pre>
