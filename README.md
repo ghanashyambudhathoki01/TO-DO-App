@@ -22,7 +22,9 @@
   <li>Simple, clean, and user-friendly UI</li>
 </ul>
 <h1>Screenshot of To Do App</h1>
-![image alt](https://github.com/ghanashyambudhathoki01/TO-DO-App/raw/main/new.jpg)
+<img src="https://raw.githubusercontent.com/ghanashyambudhathoki01/TO-DO-App/main/new.jpg" alt="TO-DO App Screenshot" width="400">
+
+
 
 <h2>Project Structure</h2>
 <pre>
